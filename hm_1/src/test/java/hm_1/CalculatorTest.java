@@ -1,5 +1,7 @@
 package hm_1;
 
+import org.assertj.core.api.Assertions;
+
 import static org.assertj.core.api.Assertions.*;
 
 class CalculatorTest {
@@ -13,10 +15,10 @@ class CalculatorTest {
         assert 2 == Calculator.calculation(100, 50, '/');
 
         // Проверка базового функционала с целыми числами, с использованием утверждений AssertJ:
-        assertThat(Calculator.calculation(2, 6, '+')).isEqualTo(8);
-        assertThat(Calculator.calculation(2, 2, '-')).isEqualTo(0);
-        assertThat(Calculator.calculation(2, 7, '*')).isEqualTo(14);
-        assertThat(Calculator.calculation(100, 50, '/')).isEqualTo(2);
+        Assertions.assertThat(Calculator.calculation(2, 6, '+')).isEqualTo(8);
+        Assertions.assertThat(Calculator.calculation(2, 2, '-')).isEqualTo(0);
+        Assertions.assertThat(Calculator.calculation(2, 7, '*')).isEqualTo(14);
+        Assertions.assertThat(Calculator.calculation(100, 50, '/')).isEqualTo(2);
 
         // Проверка ожидаемого исключения, с использованием утверждений AssertJ:
         assertThatThrownBy(() ->
@@ -32,9 +34,9 @@ class CalculatorTest {
         assert 4950.00 == Calculator.calculateDiscount(5000.00, 5);
 
         // Проверка базового функционала с целыми числами, с использованием утверждений AssertJ:
-        assertThat(Calculator.calculateDiscount(5000.00, 10)).isEqualTo(4500.00);
-        assertThat(Calculator.calculateDiscount(5000.00, 5)).isEqualTo(4750.00);
-        assertThat(Calculator.calculateDiscount(5000.00, 1)).isEqualTo(4950.00);
+        Assertions.assertThat(Calculator.calculateDiscount(5000.00, 10)).isEqualTo(4500.00);
+        Assertions.assertThat(Calculator.calculateDiscount(5000.00, 5)).isEqualTo(4750.00);
+        Assertions.assertThat(Calculator.calculateDiscount(5000.00, 1)).isEqualTo(4950.00);
 
         // Проверка ожидаемого исключения с использованием утверждений AssertJ:
         try {

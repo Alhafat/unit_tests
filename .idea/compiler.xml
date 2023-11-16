@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hm_1" />
+        <module name="hm_2" />
+        <module name="hm_3" />
+        <module name="hm_4" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hm_1" target="20" />
+    </bytecodeTargetLevel>
   </component>
 </project>
