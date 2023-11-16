@@ -8,7 +8,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/libs/assertj-core-3.23.1.jar!/" />
+          <root url="jar://$MODULE_DIR$/libs/assertj-core-3.24.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

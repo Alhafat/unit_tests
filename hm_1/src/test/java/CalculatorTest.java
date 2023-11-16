@@ -1,7 +1,7 @@
 import org.assertj.core.api.Assertions;
 import org.example.Calculator;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class CalculatorTest {
 

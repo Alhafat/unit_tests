@@ -1,10 +1,15 @@
 package org.example;
+//
+//import org.junit.jupiter.api.Test;
+//
+//import static org.junit.jupiter.api.Assertions.assertEquals;
+//import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-import static org.assertj.core.api.Assertions.assertThat;
-
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 class VehicleTest {
 
@@ -31,11 +36,11 @@ class VehicleTest {
     // 1)  проверка того, что экземпляр объекта Car также является экземпляром транспортного средства;
     //    через (instanceof)
 
-    @Test
-    void instance0fAssertThat(){
-        car = new Car("Skoda", "Superb", 2023);
-        assertThat(car instanceof Vehicle);
-    }
+//    @Test
+//    void instance0fAssertThat(){
+//        car = new Car("Skoda", "Superb", 2023);
+//        assertThat(car instanceof Vehicle);
+//    }
 
     @Test
     void instanceOfAssertTrue() {
