@@ -1,6 +1,5 @@
-package hm_1;
-
 import org.assertj.core.api.Assertions;
+import org.example.Calculator;
 
 import static org.assertj.core.api.Assertions.*;
 
